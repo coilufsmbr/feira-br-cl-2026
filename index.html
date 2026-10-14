@@ -47,13 +47,18 @@
                 <div id="profile-content"></div>
             </div>
             <section class="panel partners">
-                <div class="group-title"><span class="section-icon">◎</span>
+                <div class="group-title"><span class="section-icon">≈</span>
                     <div>
                         <h2 id="same-title">Próximo da sua área</h2>
                         <p id="same-subtitle">Primeiro, afinidades temáticas diretas.</p>
                     </div><span class="count" id="same-count">0</span>
                 </div>
-                <div id="same-list"></div>
+                <div id="same-list" class="carousel-viewport" tabindex="0" aria-label="Recomendações na mesma área" aria-live="polite"></div>
+                <nav id="same-controls" class="carousel-controls" aria-label="Navegar pelos parceiros" hidden>
+                    <button type="button" id="same-prev" class="carousel-arrow" aria-label="Parceiro anterior">←</button>
+                    <span id="same-position" class="carousel-position"></span>
+                    <button type="button" id="same-next" class="carousel-arrow" aria-label="Próximo parceiro">→</button>
+                </nav>
             </section>
             <section class="panel partners">
                 <div class="group-title"><span class="section-icon earth">↗</span>
@@ -62,7 +67,12 @@
                         <p id="other-subtitle">Colaborações interdisciplinares também podem surpreender.</p>
                     </div><span class="count" id="other-count">0</span>
                 </div>
-                <div id="other-list"></div>
+                <div id="other-list" class="carousel-viewport" tabindex="0" aria-label="Recomendações de outras áreas" aria-live="polite"></div>
+                <nav id="other-controls" class="carousel-controls" aria-label="Navegar pelos parceiros" hidden>
+                    <button type="button" id="other-prev" class="carousel-arrow" aria-label="Parceiro anterior">←</button>
+                    <span id="other-position" class="carousel-position"></span>
+                    <button type="button" id="other-next" class="carousel-arrow" aria-label="Próximo parceiro">→</button>
+                </nav>
             </section>
         </section>
         <footer><span>COIL · BRASIL + CHILE</span><span id="footer-note">Uma ferramenta de descoberta.</span></footer>
