@@ -35,7 +35,7 @@ const SAMPLE = {
 const i18n = {
   pt: {
     eyebrow: "FEIRA COIL · ENCONTRO DE DOCENTES",
-    title: "Encontre conexões.",
+    title: "Encontre conexões",
     subtitle: "Um ponto de partida para novas colaborações internacionais.",
     lookup: "Identifique-se",
     hint: "Use o e-mail informado na inscrição da Feira COIL.",
@@ -61,7 +61,7 @@ const i18n = {
   },
   es: {
     eyebrow: "FERIA COIL · ENCUENTRO DE DOCENTES",
-    title: "Encuentra conexiones.",
+    title: "Encuentra conexiones",
     subtitle: "Un punto de partida para nuevas colaboraciones internacionales.",
     lookup: "Identifícate",
     hint: "Usa el correo que registraste en la Feria COIL.",
